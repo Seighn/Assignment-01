@@ -18,5 +18,17 @@
     <ClCompile Include="Sample1.5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Shaders\Sample.frag" />
+    <CopyFileToFolders Include="Shaders\Sample.vert" />
   </ItemGroup>
 </Project>

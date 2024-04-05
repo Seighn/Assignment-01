@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sample1.5.cpp">
+    <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="Sample1.5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,5 +30,9 @@
   <ItemGroup>
     <CopyFileToFolders Include="Shaders\Sample.frag" />
     <CopyFileToFolders Include="Shaders\Sample.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Skybox.vert" />
+    <None Include="Shaders\Skybox.frag" />
   </ItemGroup>
 </Project>
